@@ -1,0 +1,145 @@
+body{
+	background: white;
+	background-size: cover;
+	font-family: Times New Roman;	
+}
+h1{
+background: maroon;
+background-size: cover;
+text-align: center;
+font-family: bauhaus 93;
+font-size: 50px;
+text-align: center;
+margin: 11px;
+color: yellow;
+opacity:.9;
+}
+h2{
+	font-size: 40px;
+}
+strong{
+	float: right;
+	width: 500px;
+	height: 500px;
+	padding: 25px;
+	text-align: center;
+	color: darkblue;
+	font-size: 14px;
+	font-family: Arial black;
+	position: top;
+	
+	
+}
+strong ul li a{
+	font-size: 14px;
+}
+img{
+	height: 500px;
+	width: 500px;
+	border: 5px solid black;
+	
+}
+p {
+	float: left-side;
+	padding: 16px;
+	font-size: 20px;
+}
+li {
+	font-size: 20px;
+}
+
+ul{
+	margin: 0px;
+	padding: 30px;  
+	list-style: none;
+}
+ul li {
+	float: left;
+	width: 250px;
+	height: 40px;
+	background-color: black; 
+	opacity:.8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	
+}
+ul li a:hover {
+	background-color: green;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block
+}
+h4 a{
+	color:darkblue;
+	font-family: Arial;
+	font-size:16px;
+}
+a img{
+	height:150px; 
+	width: 200px;
+	border: none; 
+	float: left;
+}
+	div img{
+	transition: 1s;
+    padding: 15px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    box-shadow: 3px 3px 5px lightgrey;
+	border:none;
+	float:left;
+}
+	div a img{
+	transition: 1s;
+    padding: 15px;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    box-shadow: 3px 3px 5px lightgrey;
+	border:none;
+}
+div img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+h3{ 
+font-size: 30px;
+}
+table,td,th{
+	border:2px solid black;
+}
+table{
+	border-collapse: collapse; width: 100%
+}
+th{
+	font-size: 20px;
+	height: 50px; color:lightgrey;
+	font-family: Arial;
+}
+table{
+	background-color: darkgreen;
+}
+td{
+	color:white;
+}
+footer{
+	background-color: maroon;
+	width: 1330px;
+	height: 30px;
+	opacity: .8;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+}
